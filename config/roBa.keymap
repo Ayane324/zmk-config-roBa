@@ -107,10 +107,10 @@
 
         NUM {
             bindings = <
-&kp LS(SEMICOLON)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                                                 &trans           &trans             &trans            &kp RS(INTERNATIONAL_3)  &trans
-&kp LEFT_SHIFT     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0  &kp LC(LA(KP_NUMBER_0))      &kp LS(EQUAL)  &kp EXCLAMATION  &kp RS(NUMBER_8)   &kp RS(NUMBER_9)  &kp DOLLAR               &kp PERCENT
-&mt LCTRL MINUS    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &trans                       &trans         &kp AT_SIGN      &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RS(INTERNATIONAL_1)  &kp BACKSLASH
-&trans             &trans        &trans        &trans        &trans        &trans                       &trans         &trans                                                                         &kp PIPE
+&kp LS(SEMICOLON)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                                                     &trans            &trans             &trans            &kp RS(INTERNATIONAL_3)  &kp RS(EQUAL)
+&kp LEFT_SHIFT     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0  &kp LC(LA(KP_NUMBER_0))      &kp LS(SEMICOLON)  &kp EXCLAMATION   &kp RS(NUMBER_8)   &kp RS(NUMBER_9)  &kp DOLLAR               &kp PERCENT
+&mt LCTRL MINUS    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &trans                       &trans             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RS(INTERNATIONAL_1)  &kp BACKSLASH
+&trans             &trans        &trans        &trans        &trans        &trans                       &trans             &trans                                                                          &kp PIPE
             >;
         };
 
