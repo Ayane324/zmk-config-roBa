@@ -87,10 +87,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                              &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_SHIFT A  &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))        &trans           &kp H        &kp J  &kp K      &kp L    &mt RIGHT_SHIFT MINUS
-&mt LCTRL Z       &kp X         &kp C         &kp V      &kp B        &to 6                &kp GRAVE        &kp N        &kp M  &kp COMMA  &kp DOT  &mt RCTRL SLASH
-&kp ESC           &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 TAB  &lt 3 SPACE  &lt 1 LC(SPACE)      &lt 2 BACKSPACE  &lt 4 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R      &kp T                                            &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&mt LEFT_SHIFT A  &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp RS(EQUAL)    &kp H        &kp J  &kp K      &kp L    &mt RIGHT_SHIFT MINUS
+&mt LCTRL Z       &kp X         &kp C         &kp V      &kp B        &to 6              &none            &kp N        &kp M  &kp COMMA  &kp DOT  &mt RCTRL SLASH
+&kp ESC           &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 TAB  &lt 3 SPACE  &lt 1 GRAVE        &lt 2 BACKSPACE  &lt 4 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -107,10 +107,10 @@
 
         NUM {
             bindings = <
-&kp LS(SEMICOLON)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                                                  &trans            &trans             &trans            &kp RS(INTERNATIONAL_3)  &kp RS(EQUAL)
-&kp LEFT_SHIFT     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0  &kp LC(LA(KP_NUMBER_0))      &kp LEFT_BRACE  &kp EXCLAMATION   &kp RS(NUMBER_8)   &kp RS(NUMBER_9)  &kp DOLLAR               &kp PERCENT
-&mt LCTRL MINUS    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &trans                       &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RS(INTERNATIONAL_1)  &kp BACKSLASH
-&trans             &trans        &trans        &trans        &trans        &trans                       &trans          &trans                                                                          &kp PIPE
+&kp LS(SEMICOLON)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                                                &trans            &trans             &trans            &kp RS(INTERNATIONAL_3)  &kp RS(EQUAL)
+&kp LEFT_SHIFT     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0  &kp LC(LA(KP_NUMBER_0))      &kp LC(APOS)  &kp EXCLAMATION   &kp RS(NUMBER_8)   &kp RS(NUMBER_9)  &kp DOLLAR               &kp PERCENT
+&mt LCTRL MINUS    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &trans                       &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RS(INTERNATIONAL_1)  &kp BACKSLASH
+&trans             &trans        &trans        &trans        &trans        &trans                       &trans        &trans                                                                          &kp PIPE
             >;
         };
 
